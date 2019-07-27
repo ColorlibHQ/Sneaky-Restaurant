@@ -1,0 +1,30 @@
+/*
+*   Gutenberg Style
+*/
+
+.wp-block-quote.is-style-large{
+    
+}
+.wp-block-quote.is-style-large p{
+    border-left: none;
+    padding: 25px 25px 25px 30px;
+}
+
+
+/*Button Style*/
+.wp-block-button__link{
+    display: inline-block;
+    background-color: #6059f6;
+    color: #fff;
+    border-radius: 30px;
+    padding: 12px 45px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+}
+.wp-block-button__link:hover{
+    opacity: 0.8;
+}
